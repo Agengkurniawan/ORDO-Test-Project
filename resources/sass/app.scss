@@ -169,28 +169,26 @@ html {
 
 .img-container {
     background-color: aqua;
-    width: 100%; /* Buat responsif */
+    width: 100%;
     max-width: 729px;
     height: 249px;
     display: flex;
-    justify-content: center; /* Pusatkan gambar */
+    justify-content: center;
     align-items: center;
     overflow: hidden;
     position: relative;
-    top: -80px; /* Geser container ke atas */
+    top: -80px;
 }
 
 .img-container img {
-    width: 100%; /* Pastikan gambar memenuhi lebar container */
+    width: 100%;
     height: 100%;
-    object-position: center top; /* Pastikan gambar memenuhi tinggi container */
-    object-fit: cover; /* Potong gambar agar pas tanpa merubah aspek rasio */
-    position: absolute;
+    object-position: center top;
+    object-fit: cover;
     opacity: 0;
     animation: slideShow 5s infinite;
 }
 
-/* Menentukan waktu delay untuk setiap gambar */
 .img-container img:nth-child(1) {
     animation-delay: 0s;
 }

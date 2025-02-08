@@ -5,11 +5,11 @@ html {
 }
 
 .contribute {
-    max-width: 1280px; /* Sesuaikan ukuran maksimal */
+    max-width: 1280px;
     width: 100%;
     padding: 70px 40px;
     background-color: #f5faf8;
-    margin: 0 auto; /* Agar section di tengah layar */
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -66,7 +66,6 @@ html {
     }
 }
 
-/* Image Grid */
 .contribute-images {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -119,7 +118,6 @@ html {
     text-align: center;
 }
 
-/* Media Query untuk Responsiveness */
 @media (max-width: 1024px) {
     .contribute-images {
         grid-template-columns: repeat(3, 1fr);
