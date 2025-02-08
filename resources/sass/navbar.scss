@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap");
+html {
+    scroll-behavior: smooth;
+}
+
+$primary-color: #0f3d1e;
+$secondary-color: #ffffff;
+$border-color: #d4d4d4;
+
+.navbar {
+    width: 100%;
+    background-color: $secondary-color;
+    padding: 10px 20px;
+    border-bottom: 1px solid $border-color;
+    font-family: outfit;
+    // width: 1440px;
+    // height: 100px;
+    // gap: 10px;
+    // padding-top: 25px;
+    // padding-right: 70px;
+
+    // position: fixed;
+    // z-index: 1000;
+    .navbar-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: auto;
+    }
+}
+
+.logoo img {
+    width: 165px;
+    height: 50px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+
+    li {
+        display: inline;
+
+        a {
+            text-decoration: none;
+            color: black;
+            font-weight: 500;
+            transition: color 0.3s ease;
+
+            &:hover {
+                color: $primary-color;
+            }
+        }
+    }
+}
+
+.cta-button {
+    .btn-plant {
+        padding: 8px 15px;
+        border: 2px solid $primary-color;
+        color: $primary-color;
+        border-radius: 20px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+            background-color: $primary-color;
+            color: $secondary-color;
+        }
+    }
+}

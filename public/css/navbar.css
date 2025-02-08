@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap);
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  border-bottom: 1px solid #d4d4d4;
+  font-family: outfit;
+}
+.navbar .navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.logoo img {
+  width: 165px;
+  height: 50px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.nav-links li {
+  display: inline;
+}
+.nav-links li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+.nav-links li a:hover {
+  color: #0f3d1e;
+}
+
+.cta-button .btn-plant {
+  padding: 8px 15px;
+  border: 2px solid #0f3d1e;
+  color: #0f3d1e;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
+.cta-button .btn-plant:hover {
+  background-color: #0f3d1e;
+  color: #ffffff;
+}

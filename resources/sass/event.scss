@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap");
+html {
+    scroll-behavior: smooth;
+}
+
+.event-container {
+    width: Fixed (1, 440px) px;
+    height: Hug (870.37px) px;
+    padding: 70px 78px 70px 78px;
+    gap: 10px;
+    opacity: 0px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f5faf8;
+
+    .event-leader {
+        width: Hug (700px) px;
+        height: Hug (120px) px;
+        gap: 16px;
+        margin: 0 auto;
+        opacity: 0px;
+
+        .event-titlee {
+            width: 289px;
+            height: 50px;
+            gap: 0px;
+            opacity: 0px;
+            margin: 0 auto;
+            font-family: Outfit;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 50px;
+            letter-spacing: -0.005em;
+            text-align: center;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            color: #336913;
+        }
+
+        .event-description {
+            width: 700px;
+            height: 54px;
+            gap: 0px;
+            opacity: 0px;
+            margin: 0 auto;
+            font-family: Outfit;
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 27px;
+            text-align: center;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+        }
+    }
+
+    .event-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: white;
+        padding: 30px;
+        border-radius: 20px;
+        margin-top: 40px;
+
+        .event-details {
+            width: Hug (561.06px) px;
+            height: Hug (254.43px) px;
+            top: 56.31px;
+            left: 50.27px;
+            gap: 10.05px;
+            opacity: 0px;
+
+            .span1 {
+                width: Hug (248px) px;
+                height: Hug (86px) px;
+                gap: 0px;
+                opacity: 0px;
+            }
+
+            .event-date {
+                width: 151px;
+                height: 41px;
+                gap: 0px;
+                opacity: 0px;
+                font-family: Outfit;
+                font-size: 27.15px;
+                font-weight: 600;
+                line-height: 40.72px;
+                text-align: left;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+                color: #336913;
+            }
+
+            .event-time {
+                width: 248px;
+                height: 45px;
+                gap: 0px;
+                opacity: 0px;
+                font-family: Outfit;
+                font-size: 30.16px;
+                font-weight: 700;
+                text-align: left;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+                color: #000000;
+            }
+
+            .span2 {
+                width: Hug (561.06px) px;
+                height: Hug (158.37px) px;
+                gap: 24.13px;
+                opacity: 0px;
+            }
+
+            .event-info {
+                width: 555.03px;
+                height: 66px;
+                gap: 0px;
+                opacity: 0px;
+                font-family: Outfit;
+                font-size: 16.09px;
+                font-weight: 300;
+                line-height: 21.72px;
+                text-align: left;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+                color: #222222;
+            }
+
+            hr {
+                margin: 20px 0;
+                border: 1px solid #ddd;
+            }
+
+            .event-button {
+                background: #336913;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 20px;
+                cursor: pointer;
+                font-weight: bold;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                width: Hug (210.27px) px;
+                height: Hug (44.11px) px;
+                padding: 10.05px 25.14px 10.05px 25.14px;
+                gap: 10px;
+                border-radius: 9049.33px;
+                opacity: 0px;
+                font-family: Outfit;
+                font-size: 15.08px;
+                font-weight: 600;
+                line-height: 22.62px;
+                letter-spacing: -0.005em;
+                text-align: center;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+
+                .icon {
+                    font-size: 20px;
+                }
+            }
+        }
+
+        .event-image {
+            width: 50%;
+            position: relative;
+
+            img {
+                width: 603.29px;
+                height: 320.75px;
+                top: 23.13px;
+                left: 643.51px;
+                gap: 0px;
+                border-radius: 32.18px;
+                opacity: 0px;
+            }
+
+            .carousel-button {
+                position: absolute;
+                top: 50%;
+                background: rgba(0, 0, 0, 0.5);
+                color: white;
+                border: none;
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                cursor: pointer;
+                font-size: 24px;
+                transform: translateY(-50%);
+
+                &.left {
+                    left: 10px;
+                }
+
+                &.right {
+                    right: 10px;
+                }
+            }
+        }
+    }
+}
+.event-steps {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding-top: 20px;
+
+    hr {
+        height: 3px;
+        background-color: #dddddd;
+        border-radius: 90px;
+    }
+
+    .step {
+        width: 18%;
+        text-align: left;
+
+        span {
+            font-size: 24px;
+            font-weight: bold;
+            color: #000000;
+            justify-content: start;
+            font-family: Outfit;
+            font-size: 25.09px;
+            font-weight: 800;
+            line-height: 37.64px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+        }
+
+        p {
+            font-size: 14px;
+            color: #000000;
+            margin-top: 10px;
+            font-family: Outfit;
+            font-size: 18.82px;
+            font-weight: 300;
+            line-height: 28.23px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+        }
+    }
+}
+
+.event-steps .step:nth-of-type(1) hr {
+    background-color: #2d9444;
+}

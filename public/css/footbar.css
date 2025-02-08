@@ -1,0 +1,145 @@
+@import url(https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap);
+html {
+  scroll-behavior: smooth;
+}
+
+.contribute {
+  max-width: 1280px; /* Sesuaikan ukuran maksimal */
+  width: 100%;
+  padding: 70px 40px;
+  background-color: #f5faf8;
+  margin: 0 auto; /* Agar section di tengah layar */
+  text-align: center;
+}
+
+/* Header */
+.contribute-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto 40px;
+}
+
+.contribute-header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contribute-header-content h1 {
+  font-family: Outfit, sans-serif;
+  color: #336913;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  text-align: center;
+}
+.contribute-header-content p {
+  font-family: Outfit, sans-serif;
+  color: #000;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.contribute-header-content button {
+  font-family: Outfit, sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  background-color: #336913;
+  width: 295px;
+  height: 44px;
+  border-radius: 9000px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.contribute-header-content button:hover {
+  background-color: #27500e;
+}
+
+/* Image Grid */
+.contribute-images {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  align-self: flex-end;
+  align-items: flex-end;
+}
+.contribute-images img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 4px solid #ffffff;
+}
+
+.contribute-images span:nth-child(1) img,
+.contribute-images span:nth-child(5) img {
+  width: 240.52px;
+  height: 425.53px;
+}
+
+.contribute-images span:nth-child(2) img,
+.contribute-images span:nth-child(4) img {
+  width: 240.52px;
+  height: 281.22px;
+}
+
+.contribute-images span:nth-child(3) img {
+  width: 240px;
+  height: 161px;
+}
+
+/* Footer */
+.Ageng {
+  background-color: #1d4009;
+  text-align: center;
+  color: #ffffff;
+  font-family: Outfit, sans-serif;
+  padding: 10px 0;
+  margin-top: -7x;
+  font-family: Outfit;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+/* Media Query untuk Responsiveness */
+@media (max-width: 1024px) {
+  .contribute-images {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  .contribute-images {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .contribute-header h1 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .contribute-header p {
+    font-size: 18px;
+  }
+}
+@media (max-width: 480px) {
+  .contribute-images {
+    grid-template-columns: 1fr;
+  }
+  .contribute-header h1 {
+    font-size: 28px;
+  }
+  .contribute-header p {
+    font-size: 16px;
+  }
+}
